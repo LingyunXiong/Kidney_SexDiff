@@ -7,7 +7,7 @@ library(ggplot2)
 set.seed(1234)
 
 #### Download processed single-nuclear multiomic dataset ####
-# Link: https://drive.google.com/file/d/1_RsjbXxG1OdKJvZyaYzGhJOrMyCwQNmY/view?usp=sharing
+# Link: https://drive.google.com/file/d/1T0BkBz8OKmRX-POintJC9c-wc3I68Bm2/view?usp=sharing
 
 ### Functions ###
 compute_sseq_params <- function (x, zeta_quantile = 0.995)
