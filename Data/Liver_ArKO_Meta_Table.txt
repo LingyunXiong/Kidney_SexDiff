@@ -1,0 +1,20 @@
+Sample	Genotype	Category	Sex	Organ	Batch
+1_1101.Liver_AlbCRE_Arcy	"AlbCRE/+, Ar c/y"	KO	M	liver	WashU
+2_1102.Liver_AlbCRE_Arcy	"AlbCRE/+, Ar c/y"	KO	M	liver	WashU
+3_1103.Liver_AlbCRE_Arcy	"AlbCRE/+, Ar c/y"	KO	M	liver	WashU
+4_1104.Liver_AlbCRE_Arcy	"AlbCRE/+, Ar c/y"	KO	M	liver	WashU
+5_1105.Liver_AlbCRE_Arcy	"AlbCRE/+, Ar c/y"	KO	M	liver	WashU
+6_1106.Liver_Arcy	Ar c/y	WT	M	liver	WashU
+7_1107.Liver_Arcy	Ar c/y	WT	M	liver	WashU
+8_1108.Liver_Arcy	Ar c/y	WT	M	liver	WashU
+9_1109.Liver_Arcy	Ar c/y	WT	M	liver	WashU
+10_1110.Liver_Arcy	Ar c/y	WT	M	liver	WashU
+1146_Sox2CRE_ARcy_M_liver	Sox2Cre/+; Ar c/y	KO	M	liver	WashU
+1147_Sox2CRE_ARcy_M_liver	Sox2Cre/+; Ar c/y	KO	M	liver	WashU
+1148_Sox2CRE_ARcy_M_liver	Sox2Cre/+; Ar c/y	KO	M	liver	WashU
+1149_Sox2CRE_ARcy_M_liver	Sox2Cre/+; Ar c/y	KO	M	liver	WashU
+1150_Sox2CRE_ARcy_M_liver	Sox2Cre/+; Ar c/y	KO	M	liver	WashU
+1151_ARccF_liver	Ar c/c	WT	F	liver	WashU
+1152_ARccF_liver	Ar c/c	WT	F	liver	WashU
+1153_ARccF_liver	Ar c/c	WT	F	liver	WashU
+1154_ARccF_liver	Ar c/c	WT	F	liver	WashU
