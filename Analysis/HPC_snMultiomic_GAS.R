@@ -105,7 +105,7 @@ peakMatrix <- getMatrixFromProject(
    threads = getArchRThreads(),
    logFile = NULL
 ) 
-proj <- proj_ls[[1]]
+proj <- proj_ls[[1]] # processed ArchR object
 
 vec_cluster <- names(table(proj$Clusters_ivy_v4_refined))
 sample_list <- c("A1", "A2", "A3", "A4", "B1", "B2", "B3", "B4", "B5", "B6")
@@ -117,7 +117,7 @@ for (i in 1:length(vec_cluster)){
 }
 
 #### Calculate Jenssens Gene Accessibility Score ####
-vec_DEG <- read.csv(file = "Multiome_PT_fWTvsmWT_DEGs_ARresponse.csv", header = T, row.names = 1, stringsAsFactors = F)
+vec_DEG <- read.csv(file = "../Data/Multiome_PT_fWTvsmWT_DEGs_ARresponse.csv", header = T, row.names = 1, stringsAsFactors = F)
 vec_genes <- rownames(vec_DEG)
 upstream.extend <- 5000
 mtx_gene_GAS <- matrix(data = NA, nrow = length(vec_genes), ncol = length(vec_cluster)+1)
@@ -187,7 +187,7 @@ rm(i, gene.name, gene.idx, gene.info, gene.info_extended, gene.width, idx_peaks_
 rm(overlapping.granges, dist.to.TSS, w.d, gini.scores, w.b, final.weights, final.gene.scores)
 
 #### Write out GAS results ####
-write.csv(x = mtx_gene_GAS, file = "Kidney_snMultiomic_GAS.csv")
+write.csv(x = mtx_gene_GAS, file = "../Data/Kidney_snMultiomic_GAS.csv")
 rm(df, p)
 
 
