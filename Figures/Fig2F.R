@@ -12,17 +12,17 @@ mean_score <- function(data){
 }
 
 ### read in DoRothEA output: scaled activity score ###
-df_8wk_core <- fread("DoRothEA/SexGenes_8wk_Core_DoRothEA_TF_activity_score.csv")
+df_8wk_core <- fread("../Data/SexGenes_8wk_Core_DoRothEA_TF_activity_score.csv")
 df_8wk_core$MeanAS_F <- mean_score(df_8wk_core[,c(2:6)])
 df_8wk_core$MeanAS_M <- mean_score(df_8wk_core[,c(7:11)])
 df_8wk_core_s <- select(df_8wk_core,symbol,MeanAS_F,MeanAS_M)
 
-df_PT <- fread("DoRothEA/PTgenes_8wk_GE_DoRothEA_TF_activity_score.csv")
+df_PT <- fread("../Data/PTgenes_8wk_GE_DoRothEA_TF_activity_score.csv")
 df_PT$MeanAS_F <- mean_score(df_PT[,c(2:6)])
 df_PT$MeanAS_M <- mean_score(df_PT[,c(7:11)])
 df_PT_s <- select(df_PT,symbol,MeanAS_F,MeanAS_M)
 
-df_4wk <- fread("DoRothEA/SexGenes_4wk_DoRothEA_TF_activity_score.csv")
+df_4wk <- fread("../Data/SexGenes_4wk_DoRothEA_TF_activity_score.csv")
 df_4wk$MeanAS_F <- mean_score(df_4wk[,c(2:6)])
 df_4wk$MeanAS_M <- mean_score(df_4wk[,c(7:11)])
 df_4wk_s <- select(df_4wk,symbol,MeanAS_F,MeanAS_M)
