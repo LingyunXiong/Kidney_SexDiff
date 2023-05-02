@@ -10,4 +10,4 @@ This work is pending to be posted on *bioRxiv*.
 
 Raw datasets are available on GEO (GSE225566, GSE225622).
 
-![Graphics](SexDiff_Abstract.png)
+![Graphics](Graphic_Abstract.png)
