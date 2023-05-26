@@ -8,6 +8,4 @@ Ingileif Hallgrimsdottir, Lior Pachter, Junhyong Kim, Adam L. MacLean, Andrew P.
 
 The preprint is available on *bioRxiv*: https://doi.org/10.1101/2023.05.06.539585
 
-Raw datasets are available on GEO (GSE225566, GSE225622).
-
 ![Graphics](Graphic_Abstract.png)
