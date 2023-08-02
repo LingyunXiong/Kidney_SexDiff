@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/608760846.svg)](https://zenodo.org/badge/latestdoi/608760846)
+
 # Kidney_SexDiff
 
 This repository contains processed data files and customized R scripts generated during the following study:
