@@ -10,7 +10,7 @@ library(RColorBrewer)
 my_cols = brewer.pal(4,"Spectral")
 
 #### Download processed single-nuclear multiomic dataset ####
-# Link: https://drive.google.com/file/d/1_RsjbXxG1OdKJvZyaYzGhJOrMyCwQNmY/view?usp=sharing
+# Link: https://ucla.box.com/s/6f43jpkv5sco1bmcv8ttmp19edz9pnaw
 
 ### Load merged object ###
 Merged_f2 <- readRDS("Merged_2Sex_working.rds")
